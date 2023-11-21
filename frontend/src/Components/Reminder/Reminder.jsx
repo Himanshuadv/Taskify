@@ -32,7 +32,7 @@ function Reminder() {
 
   useEffect(() => {
     handleToday();
-  }, [selectedTime]);
+  }, [handleToday]);
 
   const handleTomorrow = () => {
     const tomorrow = new Date();
