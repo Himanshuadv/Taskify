@@ -61,7 +61,6 @@ const DailiesColumn = () => {
       });
 
       if (response.ok) {
-        const data = await response.json();
         setNewDailiesText("");
         fetchDailies();
       } else {

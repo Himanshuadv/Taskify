@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import "./Daily.css";
-import { SlOptionsVertical } from "react-icons/sl";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useAppContext } from "../context";
 
 const Daily = (props) => {
 
   const {toggleAddDailyVisibility} = useAppContext();
-  const [clicked, setClicked] = useState(false);
 
   const handleDailyTaskDelete = async () => {
     try {
@@ -34,7 +32,6 @@ const Daily = (props) => {
     }
   };
   const handleTickClick = async () => {
-    setClicked(true);
 
     // Make an HTTP request to update the task's status
     try {
