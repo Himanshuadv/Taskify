@@ -7,7 +7,7 @@
     "build": "npm install && npm run migrate && npm run build:assets",
     "build:assets": "echo 'Run scripts to compile assets here'",
     "migrate": "echo 'Run migration scripts here'",
-    "start": "index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
