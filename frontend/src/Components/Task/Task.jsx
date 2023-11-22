@@ -12,7 +12,7 @@ const Task = (props) => {
     month: 'short',
     day: 'numeric'
   });
-
+  console.log(clicked);
   const handleTickClick = async () => {
     setClicked(true);
     // Make an HTTP request to update the task's status
