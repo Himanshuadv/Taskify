@@ -16,7 +16,7 @@ connectDb();
 
 // Middleware
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://taskify-zi22.onrender.com",
   credentials: true, // Allow cookies and credentials
 };
 app.use(cors(corsOptions));
