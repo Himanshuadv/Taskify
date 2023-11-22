@@ -16,7 +16,7 @@ connectDb();
 
 // Middleware
 const corsOptions = {
-  origin: "https://taskify-zi22.onrender.com",
+  origin: "https://taskify-khaki.vercel.app",
   credentials: true, // Allow cookies and credentials
 };
 app.use(cors(corsOptions));
