@@ -30,9 +30,9 @@ function Reminder() {
     console.log(today); // This will log the full date with the selected time
   };
 
-  useEffect(() => {
-    handleToday();
-  }, [selectedTime]);
+  // useEffect(() => {
+  //   handleToday();
+  // }, [selectedTime]);
 
   const handleTomorrow = () => {
     const tomorrow = new Date();
